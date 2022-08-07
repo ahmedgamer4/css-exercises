@@ -5,6 +5,36 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style: none;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  margin-top: 30%;
+  justify-content: space-between;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
